@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="arquivos css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <a href="#"><img src="imagens/livro-logo.png" alt="livro-logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="review.html">Reviews</a></li>
+                    <li><a href="loja.html">Loja</a></li>
+                    <li><a href="lancamentos.html">Lançamentos</a></li>
+                    <li><a href="clubeLivro.html">Clube de Livros</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h1>Faça sua postagem</h1>
+    <hr>
+    <div class="dawdaw">
+        <form action="postagem">
+            <label for="titulo">Título da postagem</label>
+            <input type="text" name="titulo" id="titulo" placeholder="titulo" required>
+            <br>
+            <br>
+            <label for="livros">Livro Avaliado</label>
+            <select name="livros" id="livros" required>
+                <option value="grande-gatsby">O grande GATSBY</option>
+                <option value="senhor dos aneis">O senhor dos aneis</option>
+                <option value="clubeHomens">Clube do Livro dos Homens</option>
+                <option value="senhorMoscas">Senhor das Moscas</option>
+                <option value="revolucaoBichos">A revolução dos Bichos</option>
+            </select>
+            <br>
+            <br>
+            <label for="nota">De uma nota para o livro</label>
+            <select name="nota" id="nota" required>
+                <option value="1/5">1</option>
+                <option value="2/5">2</option>
+                <option value="3/5">3</option>
+                <option value="4/5">4</option>
+                <option value="5/5">5</option>
+            </select>
+            <br>
+            <br>
+            <label for="resenha">Escreva sua resenha sobre o livro</label>
+            <br>
+            <textarea name="resenha" id="resenha" cols="50" rows="10" required></textarea>
+            <br>
+            <br>
+            <button style="background-color: orange; color: white; border-radius: 5px;">Enviar Postagem</button>
+            <br>
+            <br>
+        </form>
+    </div>
+    <footer>
+        <div class="caixa-rodape">
+            <a href="#"><img src="imagens/livro-logo.png" alt="livro-logo"></a>
+        </div>
+        <div class="caixa-rodape">
+            <h2>Informações</h2>
+            <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">E-mail</a></li>
+            </ul>
+        </div>
+        <div class="caixa-rodape">
+            <h2>Redes Socias</h2>
+            <ul>
+                <li><a href="https://www.instagram.com/trechosdelivro/">Instagram</a></li>
+                <li><a href="https://www.facebook.com/groups/316418315371979">Facebook</a></li>
+                <li><a href="https://www.youtube.com/c/JuCirqueira">Youtube</a></li>
+                <li><a href="https://twitter.com/PlanetaLivrosBR">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="arquivos css/style.css">
+    <title>Biblioteca Subterranea</title>
+</head>
+<body>
+    <header>
+        <div class="caixa"> 
+            <a href="#"><img src="imagens/livro-logo.png" alt="livro-logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="review.html">Reviews</a></li>
+                    <li><a href="loja.html">Loja</a></li>
+                    <li><a href="lancamentos.html">Lançamentos</a></li>
+                    <li><a href="clubeLivro.html">Clube de Livros</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h1>Contato</h1>
+    <hr>
+    <br>
+    <form action="contato">
+        <label for="name">Nome Completo</label>
+        <input type="text" name="name" id="name" required>
+        <br>
+        <br>
+        <label for="nascimento">Data de Nascimento</label>
+        <input type="date" name="nascimento" id="nascimento" required>
+        <br>
+        <br>
+        <label for="telefone">Telefone</label>
+        <input type="tel" name="telefone" id="telefone" placeholder="(xx)9xxxx-xxxx" required>
+        <br>
+        <br>
+        <label for="endereco">Endereço Completo</label>
+        <input type="text" name="endereco" id="endereco" placeholder="Cidade: xxx, Bairro: xxx, Rua: xxx, Cep: xxx">
+        <br>
+        <br>
+        <label for="vaga">Qual vaga está concorrendo</label>
+        <select>
+            <option value="programador">Programador</option>
+            <option value="gestor">Gestor</option>
+            <option value="admin">Administrador</option>
+            <option value="gerente">Gerente</option>
+        </select>
+        <br>
+        <br>
+        <label for="sobre">Sobre você</label>
+        <br>
+        <textarea name="sobre" id="" cols="60" rows="20"></textarea>
+        <br>
+        <br>
+        <label for="curriculo">Arquivo do curriculo</label>
+        <br>
+        <input type="file" name="curriculo" id="curriculo">
+        <br>
+        <br>
+        <button>Enviar</button>
+    </form>
+    <br>
+    <a href="#">
+        <div class="caixa-voltar">
+            <p>Voltar ao topo</p>
+        </div>
+    </a>
+    <footer>
+        <div class="caixa-rodape">
+            <a href="#"><img src="imagens/livro-logo.png" alt="livro-logo"></a>
+        </div>
+        <div class="caixa-rodape">
+            <h2>Informações</h2>
+            <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">E-mail</a></li>
+            </ul>
+        </div>
+        <div class="caixa-rodape">
+            <h2>Redes Socias</h2>
+            <ul>
+                <li><a href="https://www.instagram.com/trechosdelivro/">Instagram</a></li>
+                <li><a href="https://www.facebook.com/groups/316418315371979">Facebook</a></li>
+                <li><a href="https://www.youtube.com/c/JuCirqueira">Youtube</a></li>
+                <li><a href="https://twitter.com/PlanetaLivrosBR">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
